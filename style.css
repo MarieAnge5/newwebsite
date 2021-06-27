@@ -19,6 +19,13 @@ h3 {
 
 h1 {
   padding-top: 20px;
+  font-size: 100px;
+}
+@media (max-width: 576px) {
+  h1 {
+    line-height: 1.5;
+    font-size: 120px;
+  }
 }
 
 h2 {
